@@ -24,9 +24,9 @@ export const Cards = () => {
               <img src="/HealthTag-Logo.svg" alt="" />
             </div>
             <div className="card">
-              <h3>Segurança Avançada Integrada</h3>
+              <h3>Tecnologia Inovadora para o Cuidado da Saúde</h3>
               <p>
-              Proteja seus pacientes e equipe. Sistema robusto garante rastreabilidade total, prevenindo roubos e garantindo confiança.
+              O HealthTag é um bracelete inteligente que atende às necessidades individuais, integra-se aos sistemas de saúde e é acessível a todos.
               </p>
             </div>
           </section>

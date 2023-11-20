@@ -1,25 +1,25 @@
 export const detailsData = [
   {
-    p: "Segurança para quem não pode se comunicar",
-    span: "O HealthTag é um bracelete inteligente que armazena informações médicas vitais, como histórico médico, alergias e condições de saúde específicas. Em situações de emergência, o bracelete pode ser escaneado por profissionais de saúde para fornecer informações importantes sobre o paciente, permitindo uma intervenção mais rápida e precisa.",
+    p: "Agilização do atendimento:",
+    span: "O HealthTag fornece informações médicas vitais aos profissionais de saúde em segundos, permitindo uma intervenção mais rápida e precisa.",
   },
   {
-    p: "Avanço Sustentável na Gestão Hospitalar",
-    span: "Implantação do sistema reduz desperdícios, promove controle rigoroso e garante eficiência operacional, fortalecendo a segurança do paciente.",
+    p: "Redução de erros:",
+    span: " O HealthTag evita erros médicos relacionados à falta de informações sobre o paciente, como alergias ou condições de saúde específicas.",
   },
   {
-    p: "Simplificação Inteligente no Ambiente Hospitalar",
-    span: " Rastreamento por código de barras, atualização automática e etiquetas personalizadas facilitam a gestão de estoque, integrando-se ao cotidiano hospitalar.",
+    p: "Melhoria da segurança:",
+    span: "O HealthTag pode ajudar a salvar vidas, fornecendo informações importantes sobre o paciente em situações de emergência.",
   },
 ];
 
 export const requirementsData = [
   {
-    title: "Prevenção de Desperdícios",
-    text: "Projeto inovador que evita desperdícios, garantindo que nenhum medicamento expire e recursos sejam preservados.",
+    title: "Agilidade:",
+    text: "O HealthTag fornece informações médicas vitais aos profissionais de saúde em segundos, permitindo uma intervenção mais rápida e precisa.",
   },
   {
-    title: "Eficiência Operacional Aumentada",
+    title: "Precisão",
     text: "Sistema inteligente agiliza reposição, assegurando acesso rápido a materiais essenciais para profissionais de saúde.",
   },
   {
