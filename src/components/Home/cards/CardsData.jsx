@@ -8,7 +8,7 @@ export const detailsData = [
     span: " O HealthTag evita erros médicos relacionados à falta de informações sobre o paciente, como alergias ou condições de saúde específicas.",
   },
   {
-    p: "Melhoria da segurança:",
+    p: "Cuidado:",
     span: "O HealthTag pode ajudar a salvar vidas, fornecendo informações importantes sobre o paciente em situações de emergência.",
   },
 ];
@@ -20,10 +20,10 @@ export const requirementsData = [
   },
   {
     title: "Precisão",
-    text: "Sistema inteligente agiliza reposição, assegurando acesso rápido a materiais essenciais para profissionais de saúde.",
+    text: "O HealthTag evita erros médicos relacionados à falta de informações sobre o paciente.",
   },
   {
-    title: "Controle Total de Estoque",
-    text: "Redução de erros, sistema moderno proporciona controle rigoroso, melhorando precisão e confiança nos registros.",
+    title: "Segurança:",
+    text: " O HealthTag pode ajudar a salvar vidas, fornecendo informações importantes sobre o paciente em situações de emergência.",
   },
 ];
