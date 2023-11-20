@@ -1,22 +1,22 @@
 
-import { FaBell } from "react-icons/fa";
-import { GrCycle } from "react-icons/gr";
-import { LuBrainCog } from "react-icons/lu";
+import { IoAccessibilityOutline } from "react-icons/io5";
+import { IoPencilOutline } from "react-icons/io5";
+import { IoStarOutline } from "react-icons/io5";
 
 const data = [
   {
-    title:'Controle em Tempo Real',
-    text:'Gerenciamento abrangente, visão instantânea: estoque hospitalar em tempo real para decisões rápidas e eficientes.',
-    img: <GrCycle/>
+    title:'Empoderando Pacientes Especiais com Autonomia',
+    text:'Pode ajudar pessoas com necessidades especiais a ter mais autonomia.',
+    img: <IoAccessibilityOutline />
   },
   {
-    title:'Rastreamento Inteligente',
-    text:'Código de barras exclusivo: monitoramento preciso, entrada/saída fácilpara garantir controle eficaz do estoque.',
-    img: <LuBrainCog/>
+    title:'Inovação para Cuidados de Saúde Personalizados',
+    text:'Armazena informações médicas vitais de forma personalizada e segura.',
+    img: <IoPencilOutline />
   },  {
-    title:'Alertas de Validade',
-    text:'Segurança automatizada: datas de validade monitoradas, alertas proativos para evitar expirações, garantindo qualidade constante.',
-    img: <FaBell/>
+    title:'Acessibilidade Sem Compromissos',
+    text:'Tecnologia inovadora que tem o potencial de revolucionar o cuidado da saúde.',
+    img: <IoStarOutline />
   }
 ]
 function Features() {
