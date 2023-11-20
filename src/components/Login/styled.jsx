@@ -37,10 +37,10 @@ p{
       box-shadow: var(--tw-ring-inset) 0 0 0
         calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color);
       --tw-ring-inset: inset;
-      --ring-color: #058789;
+      --ring-color: #d1d5db;
       border: 0.3px solid #cecece;
       width: 100%;
-      color: #058789;
+      color: #111827;
 
       @media (min-width: 640px) {
         font-size: 0.875rem;
@@ -71,7 +71,7 @@ p{
 
     input{
       border: none;
-      background-color: #058789;
+      background-color: #04848c;
       color: white;
       cursor: pointer;
     }

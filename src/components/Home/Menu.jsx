@@ -1,7 +1,7 @@
 import Title from "../Title";
 import Features from "./Features/Features";
 import { Cards } from "./cards/Cards";
-import photo01 from "/Group.png";
+import photo01 from "/med.svg";
 import Band from "./Band/band";
 import Footer from "./Footer/Footer";
 
@@ -22,13 +22,13 @@ const Menu = () => {
       </section>
       <Title
         title="Features"
-        caption="Sua experiência fica cada vez melhor com o tempo."
+        caption="HealthTag: sua saúde, em constante evolução."
         text="
-        Com avanços contínuos, a tecnologia transforma sua jornada em uma evolução constante. Sua experiência melhora progressivamente, inovando a cada momento."
+        O HealthTag pode fornecer informações médicas vitais aos usuários, o que pode ajudar a prevenir doenças e melhorar o tratamento."
       />
       <Cards />
       <Band />
-      <Title title='' caption="Estoque Inteligente para Eficiência Operacional" text=''/>
+      <Title title='' caption="Sua jornada de cuidados de saúde em uma evolução constante." text=''/>
       <Features />
       <Footer />
     </>

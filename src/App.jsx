@@ -4,16 +4,16 @@ import { useEffect, useState } from "react";
 
 function App() {
   const [color, setColor] = useState("black");
-  const [logo, setLogo] = useState("/HealthTag-Logo.svg");
+  const [logo, setLogo] = useState("/logo-sembg.svg");
   const [link, setLink] = useState("/");
 
   useEffect(() => {
     if (window.location.href.endsWith("/") === true) {
-      setLogo("/HealthTag-Logo.svg");
+      setLogo("/logo-sembg.svg");
       setLink("/login");
       setColor("white");
     } else {
-      setLogo("/HealthTag-Logo.svg");
+      setLogo("/logo-sembg.svg");
       setLink("/");
       setColor("black");
     }

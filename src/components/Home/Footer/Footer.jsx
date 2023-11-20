@@ -6,7 +6,7 @@ function Footer() {
   return (
     <footer>
       <div>
-        <img src="/HealthTag-Logo.svg" alt="" />
+        <img src="/logo-sembg.svg" alt="" />
       </div>
       <div className="icons">
         {icons.map((icon, index) => (

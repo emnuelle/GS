@@ -21,7 +21,7 @@ export const Cards = () => {
           </section>
           <section className="bottom-card">
             <div className="name">
-              <img src="/HealthTag-Logo.svg" alt="" />
+              <img src="/logo-sembg.svg" alt="" />
             </div>
             <div className="card">
               <h3>Tecnologia Inovadora para o Cuidado da Saúde</h3>

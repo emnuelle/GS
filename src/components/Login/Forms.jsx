@@ -1,7 +1,7 @@
 import { FormMain } from "./styled";
 import { useRef, useState } from "react";
 
-function Forms() {
+function Form() {
   const [error, setError] = useState("");
   const name = useRef();
   const password = useRef();
@@ -59,4 +59,4 @@ function Forms() {
     </FormMain>
   );
 }
-export default Forms;
+export default Form;
