@@ -1,0 +1,22 @@
+{
+  "clients": [
+    {
+      "id": 1,
+      "nome": "emma",
+      "email": "emma@gmail.com",
+      "senha": "emmafiap"
+    },
+    {
+      "id": 2,
+      "nome": "victoria",
+      "email": "victoria@gmail.com",
+      "senha": "victoriafiap"
+    },
+    {
+      "id":3,
+      "nome": "teste",
+      "email":"teste@gmail.com",
+      "senha": "fiap"
+    }
+  ]
+}

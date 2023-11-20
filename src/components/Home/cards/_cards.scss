@@ -1,0 +1,186 @@
+.cards-body {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-bottom: 7rem;
+  .main-section {
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    align-items: stretch;
+  }
+  .requirements {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 1rem;
+    height: 663px;
+    gap: 1rem;
+  }
+
+  .project-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 2;
+    width: 900px;
+    height: 663px;
+
+  }
+  .bottom-card {
+    display: flex;
+    margin-top: 1rem ;
+    .name {
+      margin-right: 1rem;
+      align-items: center;
+      justify-content: center;
+      box-shadow: none;
+      background-color: #ffffff;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' viewBox='0 0 40 40'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%233c55cb' fill-opacity='0.07'%3E%3Cpath d='M0 38.59l2.83-2.83 1.41 1.41L1.41 40H0v-1.41zM0 1.4l2.83 2.83 1.41-1.41L1.41 0H0v1.41zM38.59 40l-2.83-2.83 1.41-1.41L40 38.59V40h-1.41zM40 1.41l-2.83 2.83-1.41-1.41L38.59 0H40v1.41zM20 18.6l2.83-2.83 1.41 1.41L21.41 20l2.83 2.83-1.41 1.41L20 21.41l-2.83 2.83-1.41-1.41L18.59 20l-2.83-2.83 1.41-1.41L20 18.59z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+      color: #058789;
+      border: 1px solid #058789;
+      border-radius: 8px;
+      img{
+        width: 80%;
+      }
+    }
+  }
+
+  .project-info {
+    display: grid;
+    padding: 28px;
+    box-sizing: border-box;
+    box-shadow: none;
+    background-color: #058789;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' viewBox='0 0 40 40'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.04'%3E%3Cpath d='M0 38.59l2.83-2.83 1.41 1.41L1.41 40H0v-1.41zM0 1.4l2.83 2.83 1.41-1.41L1.41 0H0v1.41zM38.59 40l-2.83-2.83 1.41-1.41L40 38.59V40h-1.41zM40 1.41l-2.83 2.83-1.41-1.41L38.59 0H40v1.41zM20 18.6l2.83-2.83 1.41 1.41L21.41 20l2.83 2.83-1.41 1.41L20 21.41l-2.83 2.83-1.41-1.41L18.59 20l-2.83-2.83 1.41-1.41L20 18.59z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    color: white;
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+
+    @media (max-width: 768px) {
+      grid-template-columns: 1fr;
+    }
+
+    .info-description {
+      h2 {
+        margin-bottom: 10px;
+      }
+
+      p {
+        font-size: 1em;
+      }
+    }
+
+    .info-details {
+      display: flex;
+      flex-direction: column;
+
+      @media (max-width: 768px) {
+        margin-top: 20px;
+      }
+
+      .detail {
+        margin-bottom: 20px;
+        padding: 10px;
+        border-radius: 5px;
+
+        p {
+          margin-bottom: 10px;
+          font-weight: bold;
+        }
+
+        span {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+  .card {
+    box-shadow: none;
+    background-color: #ffffff;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' viewBox='0 0 40 40'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%233c55cb' fill-opacity='0.07'%3E%3Cpath d='M0 38.59l2.83-2.83 1.41 1.41L1.41 40H0v-1.41zM0 1.4l2.83 2.83 1.41-1.41L1.41 0H0v1.41zM38.59 40l-2.83-2.83 1.41-1.41L40 38.59V40h-1.41zM40 1.41l-2.83 2.83-1.41-1.41L38.59 0H40v1.41zM20 18.6l2.83-2.83 1.41 1.41L21.41 20l2.83 2.83-1.41 1.41L20 21.41l-2.83 2.83-1.41-1.41L18.59 20l-2.83-2.83 1.41-1.41L20 18.59z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    color: #058789;
+    border: 1px solid #058789;
+    border-radius: 8px;
+    padding: 2.7rem;
+
+    h2,
+    h3 {
+      margin-top: 0;
+    }
+
+    p {
+      margin-bottom: 0;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .main-section {
+      flex-direction: column;
+    }
+  }
+}
+
+@media (min-width: 1330px) {
+  .main-section {
+    padding: 0 80px;
+    max-width: 1400px;
+  }
+}
+@media (max-width: 1330px) {
+  .main-section {
+    max-width: 80%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .main-section {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    .project-description {
+      width: 100%;
+
+      .info-description{
+        text-align: center;
+      }
+    }
+    .name {
+      display: none;
+    }
+    .bottom-card {
+      display: flex;
+      width: 100%;
+      padding: 0;
+      margin: 1rem 0;
+      align-items: center;
+      justify-content: center;
+    }
+    .requirements {
+      width: 100%;
+      padding: 0;
+      display: flex;
+      margin: 0;
+      align-items: center;
+    }
+    .card {
+      text-align: center;
+    }
+  }
+  .project-info {
+    grid-template-columns: 1fr 2fr;
+    flex: 1;
+
+  }
+}
+@media (min-width: 1200px) {
+  .project-info {
+    grid-template-columns: 1fr 2fr;
+  }
+  .name {
+    display: flex;
+  }
+}
