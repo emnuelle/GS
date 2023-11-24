@@ -4,7 +4,7 @@
 
 A Health Tag é uma solução inovadora que propõe o uso de braceletes tecnológicos para armazenar informações vitais do usuário. Esses braceletes destacam-se por sua acessibilidade e completude de dados, armazenando informações como histórico médico, alergias e condições hereditárias. Além disso, fornecem a localização em tempo real do usuário, de extrema importancia em situações de emergência. 🏥👩‍⚕️🤍
 
-Os braceletes da Health Tag apresentam uma série de benefícios, incluindo:
+Os braceletes da Health Tag apresentam uma série de benefícios, sendo eles:
 - Agilidade no atendimento: as informações armazenadas nos braceletes estão disponíveis instantaneamente, reduzindo o tempo gasto em exames desnecessários e permitindo uma intervenção médica mais eficiente.
 - Segurança: os braceletes permitem a identificação rápida e segura de indivíduos em situações de inconsciência, melhorando os serviços de resgate e segurança.
 - Promoção da prevenção e cuidado proativo: os braceletes permitem que profissionais acessem dados em tempo real, facilitando a prevenção e gestão eficiente de condições médicas.
