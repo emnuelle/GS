@@ -2,7 +2,7 @@
   <img src="./public/logo-sembg.svg" width="250" title="Logo health Tag">
 </p>
 
-A Health Tag é uma solução inovadora que propõe o uso de braceletes tecnológicos para armazenar informações vitais do usuário. Esses braceletes destacam-se por sua acessibilidade e completude de dados, armazenando informações como histórico médico, alergias e condições hereditárias. Além disso, fornecem a localização em tempo real do usuário, crucial em situações de emergência. 🏥👩‍⚕️🤍
+A Health Tag é uma solução inovadora que propõe o uso de braceletes tecnológicos para armazenar informações vitais do usuário. Esses braceletes destacam-se por sua acessibilidade e completude de dados, armazenando informações como histórico médico, alergias e condições hereditárias. Além disso, fornecem a localização em tempo real do usuário, de extrema importancia em situações de emergência. 🏥👩‍⚕️🤍
 
 Os braceletes da Health Tag apresentam uma série de benefícios, incluindo:
 - Agilidade no atendimento: as informações armazenadas nos braceletes estão disponíveis instantaneamente, reduzindo o tempo gasto em exames desnecessários e permitindo uma intervenção médica mais eficiente.
